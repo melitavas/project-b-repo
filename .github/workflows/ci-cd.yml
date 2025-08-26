@@ -47,4 +47,4 @@ jobs:
             --image us-central1-docker.pkg.dev/${{ secrets.GCP_PROJECT_ID }}/project-b-repo/project-b:latest \
             --region us-central1 \
             --platform managed \
-            --allow-unauthenticat
+            --allow-unauthenticated
